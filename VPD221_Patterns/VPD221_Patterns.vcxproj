@@ -104,6 +104,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,8 +131,15 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Abstract Factory.h" />
+    <ClInclude Include="Adapter.h" />
+    <ClInclude Include="Bridge.h" />
+    <ClInclude Include="Builder.h" />
+    <ClInclude Include="Decorator.h" />
+    <ClInclude Include="Facade.h" />
     <ClInclude Include="FactoryMethod.h" />
     <ClInclude Include="Prototype.h" />
+    <ClInclude Include="Proxy.h" />
     <ClInclude Include="Singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
